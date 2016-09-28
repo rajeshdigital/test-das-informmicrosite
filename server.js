@@ -27,26 +27,27 @@ app.use('/public', express.static(path.join(__dirname, '/govuk_modules/govuk_fro
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({
   extended: true
-}));
+}))
 
 // send assetPath to all views
 app.use(function (req, res, next) {
   res.locals.asset_path = '/public/'
   next()
-});
+})
 
 // Add variables that are available in all views
 app.use(function (req, res, next) {
   res.locals.cookieText = config.cookieText
   next()
-});
+})
 
 // routes (found in routes.js)
 
-routes.bind(app, '/public/');
+routes.bind(app, '/public/')
 
 // start the app
 
-app.listen(port, function(){
-	console.log("Server is ON at " + port);
-});
+app.listen(port)
+console.log('')
+console.log('Listening on port ' + port)
+console.log('')
