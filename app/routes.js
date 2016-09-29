@@ -5,13 +5,13 @@ module.exports = {
     })
 
     // Redirect snippets page to the index page
-    app.get('/snippets', function (req, res) {
+    app.get('/home', function (req, res) {
       res.redirect('/')
     })
 
-    app.get('/style-guide', function (req, res) {
-      var pageName = 'Front-end style guide'
-      res.render('guide_style_guide', { 'page_name': pageName })
+    app.get('/nextPage', function (req, res) {
+      var pageName = 'Next page ...'
+      res.render('next_page', { 'page_name': pageName })
     })
 
     // Layout

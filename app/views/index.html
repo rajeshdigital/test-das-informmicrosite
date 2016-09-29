@@ -1,65 +1,63 @@
-{% extends "layout.html" %}
-{% block page_title %} Digital apprenticeship service {% endblock %}
-{% block content %}
-<main class="elements-index" id="content" role="main" tabindex="-1">
-    {% include "includes/phase_banner.html" %}
-    {% include "includes/breadcrumb.html" %}
-    <div class="grid-row">
-        <div class="column-two-thirds">
-            <h1 class="heading-xlarge">
-              Digital Apprenticeship Service
-            </h1>
+{% extends "layout.html" %} {% block page_title %} Digital
+apprenticeship service {% endblock %} {% block content %}
+<main class="elements-index" id="content" role="main" tabindex=
+"-1">{% include "includes/phase_banner.html" %} {% include
+"includes/breadcrumb.html" %}
+<div class="grid-row">
+	<div class="column-two-thirds">
+		<h1 class="heading-xlarge">Digital Apprenticeship Service</h1>
+		<p>The way the government funds apprenticeships in England is
+			changing in early 2017. Some employers will be required to
+			contribute to a new apprenticeship levy, and there will be changes
+			to the funding for apprenticeship training for all employers,
+		whether you pay the levy or not.</p>
+		<div role="note" aria-label="Levy information" class=
+			"panel panel-border-wide">
+			<p>You only pay the levy if your payroll bill is in excess of
+			£3million per year.</p>
+		</div>
+		<h2 class="heading-medium">If you’re not a levy payer</h2>
+		<p>If you don’t pay the apprenticeship levy you can still use the
+		service to recruit an apprentice or post vacancies.</p>
+		<p>You can:</p>
+		<ul class="list list-bullet">
+			<li>select an apprenticeship framework or standard</li>
+			<li>choose the training provider or providers you want to deliver
+			the training</li>
+			<li>choose an assessment organisation</li>
+			<li>post apprenticeship vacancies</li>
+		</ul>
+		<div role="note" aria-label="Non levy payers information" class=
+			"panel panel-border-wide">
+			<p><a href=
+				"https://www.gov.uk/government/publications/apprenticeship-grant-employer-fact-sheet"
+				rel="external" target="_blank">Apprenticeship funding for non levy
+			payers.</a></p>
+		</div>
+	</div>
+	<!-- //column-two-thirds -->
+	<div class="column-one-third relatedContainer">
+		<aside class="related">
+			<h2 class="heading-medium">Related links</h2>
+			<ul>
+				<li><a href=
+					"https://www.gov.uk/government/publications/apprenticeship-levy-how-it-will-work/apprenticeship-levy-how-it-will-work#contents"
+					rel="external" target="_blank">Apprenticeship levy and how it will
+				work</a></li>
+				<li><a href=
+					"https://www.gov.uk/topic/further-education-skills/apprenticeships"
+					rel="external" target="_blank">Detailed guide to
+				apprenticeships</a></li>
+			</ul>
+		</aside>
+	</div>
+	<!-- //column-one-third --></div>
+	 <p>
 
-            <p>The way the government funds apprenticeships in England is changing in early 2017. Some employers will be required to contribute to a new apprenticeship levy, and there will be changes to the funding for apprenticeship training for all employers,
-                whether you pay the levy or not.
-            </p>
-            <div role="note" aria-label="Levy information" class="panel panel-border-wide">
-                <p>You only pay the levy if your payroll bill is in excess of £3million per year.</p>
-            </div>
-            <h2 class="heading-medium">If you’re not a levy payer</h2>
-            <p>If you don’t pay the apprenticeship levy you can still use the service to recruit an apprentice or post vacancies.</p>
-            <p>You can:</p>
-            <ul class="list list-bullet">
-                <li>select an apprenticeship framework or standard</li>
-                <li>choose the training provider or providers you want to deliver the training</li>
-                <li>choose an assessment organisation</li>
-                <li>post apprenticeship vacancies</li>
-            </ul>
-            <div role="note" aria-label="Non levy payers information" class="panel panel-border-wide">
-                <p><a href="https://www.gov.uk/government/publications/apprenticeship-grant-employer-fact-sheet" rel="external" target="_blank">Apprenticeship funding for non levy
-      payers.</a></p>
-            </div>
-
-
-
-        </div>
-        <!-- //column-two-thirds -->
-
-        <div class="column-one-third relatedContainer">
-            <aside class="related">
-                <h2 class="heading-medium">
-          Related links
-        </h2>
-                <ul>
-                    <li><a href="https://www.gov.uk/government/publications/apprenticeship-levy-how-it-will-work/apprenticeship-levy-how-it-will-work#contents" rel="external" target="_blank">Apprenticeship levy and how it will
-          work</a></li>
-                    <li><a href="https://www.gov.uk/topic/further-education-skills/apprenticeships" rel="external" target="_blank">Detailed guide to
-          apprenticeships</a></li>
-                </ul>
-            </aside>
-
-
-        </div>
-        <!-- //column-one-third -->
-    </div>
-    <!-- //grid-row -->
-
-
-</main>
-<!-- / #content -->
-{% endblock %}
-{% block body_end %}
+	 </p><a class="button button-start" href="/nextPage/" role="button">Next Page</a></p>
+	<!-- //grid-row --></main>
+	<!-- / #content -->
+{% endblock %} {% block body_end %}
 <!-- GOV.UK elements redirect -->
-<script src="/public/javascripts/redirect.js"></script>
-{% include "includes/scripts.html" %}
-{% endblock %}
+<script src="/public/javascripts/redirect.js">
+</script> {% include "includes/scripts.html" %} {% endblock %}
