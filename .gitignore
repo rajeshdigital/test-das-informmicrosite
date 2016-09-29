@@ -11,7 +11,7 @@ public/stylesheets/
 
 # Ignore test files
 dist/*.html
-
+tests/*
 # Wraith
 shots
 shots_history
