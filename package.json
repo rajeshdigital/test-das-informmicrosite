@@ -34,7 +34,8 @@
   "scripts": {
     "test": "standard && grunt test && npm run lint --silent",
     "lint": "bundle && bundle exec govuk-lint-sass public/sass/elements/",
-    "start": "grunt"
+    "start": "grunt",
+    "postinstall": "grunt uglify"
   },
   "standard": {
     "ignore": [
