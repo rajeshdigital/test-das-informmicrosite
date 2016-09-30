@@ -9,9 +9,9 @@ module.exports = {
       res.redirect('/')
     })
 
-    app.get('/nextPage', function (req, res) {
+    app.get('/link_appLevy', function (req, res) {
       var pageName = 'Next page ...'
-      res.render('next_page', { 'page_name': pageName })
+      res.render('link_appLevy', { 'page_name': pageName })
     })
 
     // Layout

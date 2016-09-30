@@ -36,3 +36,22 @@ $path: "/public/images/";
     }
 
 }
+
+nav {
+  .noBullets {
+  list-style-type: none;
+    }
+}
+
+.numberedList{
+  li{
+    padding:15px 0;
+  }
+    .icon{
+      padding-right: 10px;
+    }
+    span.circle{
+      margin-right:10px;
+    }
+
+}
