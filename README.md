@@ -18,7 +18,7 @@ you will need [Node.js](http://nodejs.org/) (at least version v0.10.0).
 
 Clone this repository
 
-    git clone https://github.com/rajeshdigital/gds-apprenticeship-service.git
+    git clone https://github.com/rajeshdigital/das-informmicrosite.git
 
 
 Install the required node modules
