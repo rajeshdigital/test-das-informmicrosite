@@ -3,7 +3,7 @@ Digital Apprenticeship Service App
 
 ---
 
-#### Static website with links to external DAS Pages 
+#### Static website with links to external DAS Pages
 
 ---
 
@@ -18,7 +18,7 @@ you will need [Node.js](http://nodejs.org/) (at least version v0.10.0).
 
 Clone this repository
 
-    git clone https://github.com/rajeshdigital/das-informmicrosite.git
+    git clone https://github.com/SkillsFundingAgency/das-informmicrosite.git
 
 
 Install the required node modules
@@ -31,4 +31,3 @@ Run the app
     npm start
 
 Go to [localhost:3000](http://localhost:3000) in your browser.
-
