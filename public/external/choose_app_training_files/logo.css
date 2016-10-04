@@ -1,0 +1,8 @@
+footer .ogl-logo {
+    background: url("https://assets.publishing.service.gov.uk/static/images/open-government-licence-c1aedc8257961b938b4c7a21a2b0db3f2716dd9ef782cea73110dc69107c9042.png") no-repeat scroll 0 0;
+  
+    height: 17px;
+    overflow: hidden;
+    text-indent: -999em;
+    width: 41px;
+}
