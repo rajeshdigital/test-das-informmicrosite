@@ -4,13 +4,6 @@ $path: "/public/images/";
 
 @import "govuk-elements";
 
-.header-proposition{
-
-  h1{color:#fff;font-size: 24px;line-height: 1.25em;font-weight:bold;}
-
-
-}
-
 .relatedContainer {
     box-sizing: border-box;
     margin-top: 40px;
@@ -25,12 +18,11 @@ $path: "/public/images/";
         margin:10px 0;
         }
       ul{
-
       font-size: 16px;
       line-height: 1.25;
         li{
           margin-bottom: 0.75em;
-      padding-left: 0;
+          padding-left: 0;
         }
 
     }
@@ -58,4 +50,49 @@ nav {
 
 .modified-date{
   color:$grey-1;
+}
+
+.header-global{
+  display: table;
+  padding: 15px 0 10px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 960px;
+  overflow: hidden;
+    .header-global__title {
+      display: table-cell;
+      font-size: 32px;
+      vertical-align: middle;
+      font-weight: 700;
+     line-height: 1.1;
+     margin: 0;
+     padding: 0;
+     width:50%;
+    }
+    .header-global__subtitle{
+      display: table-cell;
+      font-size: 32px;
+      vertical-align: middle;
+      font-weight: 700;
+     line-height: 1.1;
+     font-size: 24px;
+    text-align: right;
+     width:50%;
+    }
+   a {
+     border-bottom: 1px solid rgba(0, 0, 0, 0);
+     color: #fff;
+     display: inline-block;
+     padding: 2px 0;
+     text-decoration: none;
+   }
+    &:hover{
+           border-color: #fff;
+          }
+
+}
+
+#global-header-bar {
+    background-color: #6f777b;
+    height: 10px;
 }
