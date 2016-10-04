@@ -13,7 +13,8 @@ module.exports = function (grunt) {
           'public/stylesheets/elements-page-ie6.css': 'public/sass/elements-page-ie6.scss',
           'public/stylesheets/elements-page-ie7.css': 'public/sass/elements-page-ie7.scss',
           'public/stylesheets/elements-page-ie8.css': 'public/sass/elements-page-ie8.scss',
-          'public/stylesheets/prism.css': 'public/sass/prism.scss'
+          'public/stylesheets/prism.css': 'public/sass/prism.scss',
+          'public/stylesheets/responsive.css': 'public/sass/responsive.scss'
         },
         options: {
           includePaths: [
