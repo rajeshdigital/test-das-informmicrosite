@@ -11,9 +11,9 @@ module.exports = {
             res.redirect('/')
         })
 
-        app.get('/indexVersion2', function(req, res) {
+        app.get('/indexv2', function(req, res) {
             var pageName = 'Next page ...'
-            res.render('indexVersion2', {
+            res.render('indexv2', {
                 'page_name': pageName
             })
         })
