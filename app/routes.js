@@ -12,16 +12,16 @@ module.exports = {
         })
 
         app.get('/indexv2', function(req, res) {
-            var pageName = 'Next page ...'
+            var pageName = 'Index Page - Version 2.0'
             res.render('indexv2', {
                 'page_name': pageName
             })
         })
 
         // Layout
-        app.get('/layout', function(req, res) {
-            var pageName = 'Layout'
-            res.render('guide_layout', {
+        app.get('/guidelines', function(req, res) {
+            var pageName = 'Guidelines Page'
+            res.render('guidelines', {
                 'page_name': pageName
             })
         })
