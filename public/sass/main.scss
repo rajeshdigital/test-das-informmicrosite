@@ -97,10 +97,21 @@ margin-bottom:30px;
 }
 }
 // guidelines template styles
+
+.guidelinesStatic{
+	.publication-header .headings .document-type{
+		margin-top:30px;
+	}
+	.in-page-navigation{
+		margin-bottom: 30px;
+	}
+} 
+
 .publication-header{
 	padding:30px;
 	background: #2b8cc4;
 	color: #fff;
+	margin-bottom: 30px;
 	a{
 		color:#fff;
 		text-decoration: none;
