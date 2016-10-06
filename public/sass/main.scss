@@ -129,3 +129,25 @@ margin-bottom:30px;
     font-size: 27px;
     line-height: 1.11111;
 }
+
+// back-to-content styles
+.back-to-content{
+    bottom: 15px;
+    position: fixed;
+
+ 	a {
+    display:block;
+     float: right;
+	}
+	.hideScroller{
+		display: none;
+	}
+	.showScroller{
+		display: block;
+	}
+
+}
+.back-to-content a::before {
+    content: "↑";
+}
+
