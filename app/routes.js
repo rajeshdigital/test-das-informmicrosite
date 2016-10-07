@@ -29,9 +29,9 @@ module.exports = {
         })
 
         // Guidelines page
-        app.get('/guidelines', function(req, res) {
-            var pageName = 'Guidelines Page'
-            res.render('guidelines', {
+        app.get('/guidance', function(req, res) {
+            var pageName = 'Guidance Page'
+            res.render('guidance', {
                 'page_name': pageName
             })
         })
