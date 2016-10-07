@@ -1,5 +1,9 @@
-{% extends "layout.html" %} {% block page_title %} Skills Funding Agency {% endblock %} {% block content %}
-<main class="elements-index" id="content" role="main" tabindex="-1">{% include "includes/phase_banner.html" %} <!-- {% include "includes/breadcrumb.html" %} -->
+{% extends "layout.html" %} 
+{% block page_title %} Skills Funding Agency {% endblock %} 
+{% block content %}
+<main class="elements-index" id="content" role="main" tabindex="-1">
+{% include "includes/phase_banner.html" %} 
+{% include "includes/breadcrumb.html" %}
 	<div class="grid-row">
 		<div class="column-full">
 
@@ -10,9 +14,8 @@
 	<!-- //grid-row -->
 </main>
 <!-- / #content -->
-{% endblock %} {% block body_end %}
-<!-- GOV.UK elements redirect -->
-<script src="/public/javascripts/redirect.js">
+{% endblock %} 
+{% block body_end %}
 
-
-</script> {% include "includes/scripts.html" %} {% endblock %}
+{% include "includes/scripts.html" %} 
+{% endblock %}

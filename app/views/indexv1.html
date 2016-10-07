@@ -1,5 +1,6 @@
 {% extends "layout.html" %} {% block page_title %} Skills Funding Agency {% endblock %} {% block content %}
-<main class="elements-index" id="content" role="main" tabindex="-1">{% include "includes/phase_banner.html" %} <!-- {% include "includes/breadcrumb.html" %} -->
+<main class="elements-index" id="content" role="main" tabindex="-1">{% include "includes/phase_banner.html" %} 
+{% include "includes/breadcrumb.html" %} 
 <div class="grid-row">
 	<div class="column-two-thirds">
 		<h1 class="heading-xlarge"> Apprenticeships</h1>
@@ -114,6 +115,4 @@
 </main>
 <!-- / #content -->
 {% endblock %} {% block body_end %}
-<!-- GOV.UK elements redirect -->
-<script src="/public/javascripts/redirect.js">
-</script> {% include "includes/scripts.html" %} {% endblock %}
+{% include "includes/scripts.html" %} {% endblock %}

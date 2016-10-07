@@ -1,5 +1,6 @@
 module.exports = {
-    bind: function(app, assetPath) {
+    bind: function(app, assetPath) 
+    {
         app.get('/', function(req, res) {
             res.render('index', {
                 'asset_path': assetPath
@@ -11,7 +12,7 @@ module.exports = {
             res.redirect('/')
         })
 
-    // index page version 1.0
+        // index page version 1.0
         app.get('/indexv1', function(req, res) {
             var pageName = 'Index Page - Version 1.0'
             res.render('indexv1', {
@@ -36,9 +37,13 @@ module.exports = {
             })
         })
 
-
-
-
-        
+        // blank template page
+        app.get('/blank_template', function(req, res) {
+            var pageName = 'Blank template'
+            res.render('blank_template', {
+                'page_name': pageName
+            })
+        })
+     
     }
 }
