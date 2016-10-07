@@ -2,6 +2,7 @@ $( document ).ready(function() {
 
 // ===== Scroll to Top Script ==== 
 $('#return-to-top').addClass('hideScroller'); // hide on load
+
 $(window).scroll(function() {
     if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
         $('#return-to-top').addClass('showScroller');
