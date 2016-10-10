@@ -1,0 +1,27 @@
+{% extends "layout.html" %} 
+{% block page_title %} Skills Funding Agency {% endblock %} 
+{% block content %}
+<main class="elements-index" id="content" role="main" tabindex="-1">
+{% include "includes/phase_banner.html" %} 
+{% include "includes/breadcrumb.html" %}
+<div class="grid-row">
+	<div class="column-full">
+		<h1 class="heading-xlarge"> Apprenticeships User Testing</h1>
+		
+		<ul class="list list-bullet">
+		<li> <a href="indexv1">User testing Version 1.0</a></li>
+
+		<li> <a href="indexv2">User testing Version 2.0</a></li>
+
+		<li> <a href="guidance">Guidance page</a></li>
+		
+	</ul>
+	<p class="modified-date font-xsmall">Last updated: 6th October 2016</p>
+	</div>
+	<!-- column-full -->
+</div>
+<!-- //grid-row -->
+</main>
+{% endblock %} 
+{% block body_end %}
+{% include "includes/scripts.html" %} {% endblock %}

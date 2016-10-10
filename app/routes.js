@@ -13,9 +13,9 @@ module.exports = {
         })
 
         // index page version 1.0
-        app.get('/indexv1', function(req, res) {
-            var pageName = 'Index Page - Version 1.0'
-            res.render('indexv1', {
+        app.get('/landingPage', function(req, res) {
+            var pageName = 'Landing Page'
+            res.render('landingPage', {
                 'page_name': pageName
             })
         })
