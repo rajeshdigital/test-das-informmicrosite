@@ -7,6 +7,14 @@ module.exports = {
             })
         })
 
+        // blank template page
+        app.get('/blank_template', function(req, res) {
+            var pageName = 'Blank template'
+            res.render('blank_template', {
+                'page_name': pageName
+            })
+        })
+
         // Redirect snippets page to the index page
         app.get('/home', function(req, res) {
             res.redirect('/')
@@ -37,13 +45,7 @@ module.exports = {
             })
         })
 
-        // blank template page
-        app.get('/blank_template', function(req, res) {
-            var pageName = 'Blank template'
-            res.render('blank_template', {
-                'page_name': pageName
-            })
-        })
+  
      
     }
 }
