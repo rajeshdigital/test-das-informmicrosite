@@ -37,7 +37,7 @@ module.exports = {
             })
         })
 
-        // Guidelines page
+        // Guidance page old
         app.get('/guidance', function(req, res) {
             var pageName = 'Guidance Page'
             res.render('guidance', {
@@ -45,6 +45,13 @@ module.exports = {
             })
         })
 
+     // Guidance page new
+        app.get('/guidanceNew', function(req, res) {
+            var pageName = 'Guidance Page'
+            res.render('guidanceNew', {
+                'page_name': pageName
+            })
+        })
   
      
     }
