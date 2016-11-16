@@ -1,5 +1,5 @@
 module.exports = {
-    bind: function(app, assetPath) 
+    bind: function(app, assetPath)
     {
         app.get('/', function(req, res) {
             res.render('index', {
@@ -52,7 +52,7 @@ module.exports = {
                 'page_name': pageName
             })
         })
-  
-     
+
+
     }
 }
