@@ -2,7 +2,7 @@ module.exports = {
     bind: function(app, assetPath)
     {
         app.get('/', function(req, res) {
-            res.render('index.html', {
+            res.render('index', {
                 'asset_path': assetPath
             })
         })
