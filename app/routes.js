@@ -9,7 +9,7 @@ module.exports = {
 
         // Redirect snippets page to the index page
         app.get('/index', function(req, res) {
-            res.redirect('/')
+            res.redirect('/index')
         })
 
         // Get a grant page
