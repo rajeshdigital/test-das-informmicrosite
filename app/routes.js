@@ -8,7 +8,7 @@ module.exports = {
         })
 
         // Redirect snippets page to the index page
-        app.get('/home', function(req, res) {
+        app.get('/index', function(req, res) {
             res.redirect('/')
         })
 

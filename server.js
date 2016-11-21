@@ -9,7 +9,7 @@ var port = (process.env.PORT || 3000)
 
 // Application settings
 app.set('view engine', 'html')
-app.set('views', [path.join(__dirname, '/app/views'), path.join(__dirname, '/lib/')])
+app.set('views', [path.join(__dirname, '/app/views/'), path.join(__dirname, '/lib/')])
 
 nunjucks.setup({
   autoescape: true,
