@@ -1,0 +1,107 @@
+{% extends "layout.html" %} {% block page_title %} Skills Funding Agency {% endblock %} {% block content %}
+
+<main class="elements-index" id="content" role="main" tabindex="-1">{% include "includes/phase_banner.html" %}
+<!-- {% include "includes/breadcrumb.html" %}
+ -->
+
+<div class="grid-row">
+	<div class="column-two-thirds">
+		   <h1 class="heading-xlarge">Employ an apprentice</h1>
+
+	<div class="column-one-half">
+   		 <ol class="list">
+          <li>
+            <span class="part-number">1.</span>
+            <a href="/" title="Overview">Overview </a>
+          </li>
+          <li>
+            <span class="part-number">2.</span>
+          <a title="Part 2: Get a grant" href="getgrant">Get a grant, if you don't pay the levy</a>
+          </li>
+          <li class="part-number">
+            <span class="part-number">3.</span>
+              <a title="Funding if you pay the levy" href="fundinglevy">Funding, if you pay the levy</a>
+          </li>
+        </ol>
+  	</div>
+
+  	<div class="column-one-half">
+	    <ol class="list">
+	          <li>
+	            <span class="part-number">4.</span>
+	          Pay and conditions for apprentices
+	          </li>
+
+	          <li>
+	            <span class="part-number">5.</span>
+	            <a title="Make an apprenticeship agreement" href="apprenticeship-agreement">Make an apprenticeship agreement</a>
+	          </li>
+	          <li>
+	            <span class="part-number">6.</span>
+	            <a title="Apprenticeship training agencies" href="/training-agencies">Apprenticeship training agencies</a>
+	          </li>
+	    </ol>
+
+  	</div>
+	<p>&nbsp;<hr></p>
+
+  <h2 class="heading-medium">4. Pay and conditions for apprentices</h2>
+
+<p>You must pay apprentices at least the <a href="https://www.gov.uk/national-minimum-wage-rates">minimum wage rate</a>.</p>
+
+<div role="note" aria-label="Information on apprenticeship levy" class="panel panel-border-wide">
+<p>The <a href="https://www.gov.uk/am-i-getting-minimum-wage">National Minimum Wage calculator</a> works out the exact amount that you have to pay an employee.</p>
+</div>
+
+<h2 class="heading-medium">Conditions</h2>
+
+<p>Apprentices usually work for at least 30 paid hours a week and must work more than 16.</p>
+
+<p>You must pay your apprentice for time spent training or studying for a relevant qualification, whether while at work or at a college or training organisation.</p>
+
+<p>You must offer apprentices the same conditions as other employees working at similar grades or in similar roles. This includes:</p>
+
+<ul class="list list-bullet">
+  <li>paid holidays</li>
+  <li>sick pay</li>
+  <li>any benefits you offer such as childcare voucher schemes</li>
+  <li>any support you offer such as coaching or mentoring</li>
+</ul>
+
+<h2 class="heading-medium">Apprentices and redundancy</h2>
+
+<p>You can’t usually make an apprentice redundant simply because you can’t afford to pay them, (for example, if your company runs out of work).</p>
+
+<p>You should get legal advice if you think you might have to make an apprentice redundant or want to end the apprenticeship early for another reason.</p>
+
+<div role="note" aria-label="Information" class="application-notice info-notice">
+<p>If you’re unsure whether you can commit to a full apprenticeship but would still like to hire an apprentice, you can use an <a href="https://www.gov.uk/take-on-an-apprentice/apprenticeship-training-agencies">apprenticeship training agency</a>.</p>
+</div>
+
+
+  <footer>
+  <nav class="pagination" role="navigation" aria-label="Pagination">
+    <ul class="group">
+          <li class="previous">
+            <a title="Funding, if you pay the levy" rel="prev" href="/fundinglevy">
+              <span class="pagination-label">Previous </span> <span class="pagination-part-title">Funding, if you pay the levy</span>
+</a>          </li>
+          <li class="next">
+            <a title="Make an apprenticeship agreement" rel="next" href="/apprenticeship-agreement">
+              <span class="pagination-label">Next</span> <span class="pagination-part-title">Make an apprenticeship agreement</span>
+</a>          </li>
+    </ul>
+  </nav>
+</footer>
+
+
+</div>
+<!-- //column-two-thirds -->
+
+
+</div>
+<!-- //grid-row -->
+</main>
+<!-- / #content -->
+{% endblock %} {% block body_end %}
+{% include "includes/scripts.html" %} {% endblock %}

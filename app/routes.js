@@ -7,35 +7,64 @@ module.exports = {
             })
         })
 
-        // blank template page
-        app.get('/blank_template', function(req, res) {
-            var pageName = 'Blank template'
-            res.render('blank_template', {
-                'page_name': pageName
-            })
-        })
-
         // Redirect snippets page to the index page
         app.get('/home', function(req, res) {
             res.redirect('/')
         })
 
-        // index page version 1.0
-        app.get('/landingPage', function(req, res) {
-            var pageName = 'Landing Page'
-            res.render('landingPage', {
+        // Get a grant page
+        app.get('/getgrant', function(req, res) {
+            var pageName = 'Get a grant'
+            res.render('getgrant', {
                 'page_name': pageName
             })
         })
 
 
-        // index page version 2.0
-        app.get('/indexv2', function(req, res) {
-            var pageName = 'Index Page - Version 2.0'
-            res.render('indexv2', {
+        // funding, if you pay levy page
+        app.get('/fundinglevy', function(req, res) {
+            var pageName = 'Funding, if you pay the levy'
+            res.render('fundinglevy', {
                 'page_name': pageName
             })
         })
+
+
+       // Pay and conditions for apprentices page
+        app.get('/payconditions', function(req, res) {
+            var pageName = 'Pay and conditions for apprentices'
+            res.render('payconditions', {
+                'page_name': pageName
+            })
+        })
+
+      // Make an apprenticeship agreement page
+        app.get('/apprenticeship-agreement', function(req, res) {
+            var pageName = ' Make an apprenticeship agreement'
+            res.render('apprenticeship-agreement', {
+                'page_name': pageName
+            })
+        })
+
+     //Apprenticeship training agencies page
+        app.get('/training-agencies', function(req, res) {
+            var pageName = 'Apprenticeship training agencies'
+            res.render('training-agencies', {
+                'page_name': pageName
+            })
+        })
+
+
+
+
+
+
+
+
+
+
+
+
 
         // Guidance page old
         app.get('/guidance', function(req, res) {
@@ -49,6 +78,14 @@ module.exports = {
         app.get('/guidanceNew', function(req, res) {
             var pageName = 'Guidance Page'
             res.render('guidanceNew', {
+                'page_name': pageName
+            })
+        })
+
+        // blank template page
+        app.get('/blank_template', function(req, res) {
+            var pageName = 'Blank template'
+            res.render('blank_template', {
                 'page_name': pageName
             })
         })

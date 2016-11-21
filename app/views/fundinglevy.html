@@ -1,0 +1,112 @@
+{% extends "layout.html" %} {% block page_title %} Skills Funding Agency {% endblock %} {% block content %}
+
+<main class="elements-index" id="content" role="main" tabindex="-1">{% include "includes/phase_banner.html" %}
+<!-- {% include "includes/breadcrumb.html" %}
+ -->
+
+<div class="grid-row">
+	<div class="column-two-thirds">
+		   <h1 class="heading-xlarge">Employ an apprentice</h1>
+
+	<div class="column-one-half">
+   		 <ol class="list">
+          <li>
+            <span class="part-number">1.</span>
+            <a href="/" title="Overview">Overview </a>
+          </li>
+          <li>
+            <span class="part-number">2.</span>
+          <a title="Get a grant, if you don't pay the levy" href="/getgrant">Get a grant, if you don't pay the levy</a>
+          </li>
+          <li class="part-number">
+            <span class="part-number">3.</span>
+             Funding, if you pay the levy
+          </li>
+        </ol>
+  	</div>
+
+  	<div class="column-one-half">
+	    <ol class="list">
+	          <li>
+	            <span class="part-number">4.</span>
+	          <a title="Pay and conditions for apprentices" href="/payconditions">Pay and conditions for apprentices</a>
+	          </li>
+
+	          <li>
+	            <span class="part-number">5.</span>
+	            <a title="Make an apprenticeship agreement" href="/apprenticeship-agreement">Make an apprenticeship agreement</a>
+	          </li>
+	          <li>
+	            <span class="part-number">6.</span>
+	            <a title="Part 6: Apprenticeship training agencies" href="/training-agencies">Apprenticeship training agencies</a>
+	          </li>
+	    </ol>
+
+  	</div>
+	<p>&nbsp;<hr></p>
+
+  <h2 class="heading-medium">3. Funding, if you pay the levy</h2>
+
+  <p>From 1 May 2017, if you're an employer with a payroll of more than £3 million, the way you access funding for apprenticeships will change.</p>
+
+<div role="note" aria-label="Information on apprenticeship levy" class="panel panel-border-wide">
+<p>Find out about the <a href="https://das-informmicrosite.herokuapp.com/public/external/link_appLevy.html">apprenticeship levy </a> in more detail.</p>
+</div>
+
+<p>You'll be able to access your apprenticeship funding through the digital apprenticeship service where you can: </p>
+<ul class="list list-bullet">
+
+    <li>
+      register securely using your Government Gateway ID and Companies House number (which payroll or finance should have)
+      </li>
+      <li><a href="http://beta.apprenticeships.sfa.bis.gov.uk">create or sign in to</a> your account</li>
+      <li>link PAYE schemes to your <a href="http://beta.apprenticeships.sfa.bis.gov.uk">account</a>
+    </li>
+    <li>authorise payments to your training provider
+    </li>
+  </ul>
+
+  <div role="note" aria-label="Information on apprenticeship levy" class="panel panel-border-wide">
+  <p>Find out more about how to  <a href="https://das-informmicrosite.herokuapp.com/guidanceNew">set up and manage</a> your digital apprenticeship account.</p>
+  </div>
+
+<p>In your account you can also:</p>
+
+<ul class="list list-bullet">
+  <li>
+  <a href="../../public/external/estimate_funding.html">estimate your apprenticeship funding</a> to help calculate how much you’ll have to spend on apprenticeship training
+    </li>
+    <li>
+      <a href="../../public/external/choose_app_training.html">choose apprenticeship training</a> for your business and then find a training provider
+    </li>
+    <li>work with your training provider to <a href="../../public/external/advertise_apprentice.html">advertise an apprenticeship</a>
+  </li>
+</ul>
+
+
+  <footer>
+  <nav class="pagination" role="navigation" aria-label="Pagination">
+    <ul class="group">
+          <li class="previous">
+            <a title="Get a grant, if you don't pay the levy" rel="prev" href="/getgrant">
+              <span class="pagination-label">Previous </span> <span class="pagination-part-title">Get a grant, if you don't pay the levy</span>
+</a>          </li>
+          <li class="next">
+            <a title="Pay and conditions for apprentices" rel="next" href="payconditions">
+              <span class="pagination-label">Next</span> <span class="pagination-part-title">Pay and conditions for apprentices</span>
+</a>          </li>
+    </ul>
+  </nav>
+</footer>
+
+
+</div>
+<!-- //column-two-thirds -->
+
+
+</div>
+<!-- //grid-row -->
+</main>
+<!-- / #content -->
+{% endblock %} {% block body_end %}
+{% include "includes/scripts.html" %} {% endblock %}

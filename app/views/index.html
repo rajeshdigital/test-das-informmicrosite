@@ -1,8 +1,8 @@
 {% extends "layout.html" %} {% block page_title %} Skills Funding Agency {% endblock %} {% block content %}
 
 <main class="elements-index" id="content" role="main" tabindex="-1">{% include "includes/phase_banner.html" %}
-{% include "includes/breadcrumb.html" %}
-
+<!-- {% include "includes/breadcrumb.html" %}
+ -->
 
 <div class="grid-row">
 	<div class="column-two-thirds">
@@ -12,15 +12,15 @@
    		 <ol class="list">
           <li>
             <span class="part-number">1.</span>
-            <a title="Part 1: Overview" href="https://www.gov.uk/take-on-an-apprentice/overview">Overview</a>
+            Overview
           </li>
           <li>
             <span class="part-number">2.</span>
-            <a title="Part 2: Get a grant" href="https://www.gov.uk/take-on-an-apprentice/employer-grants-apprentices">Get a grant, if you don't pay the levy</a>
+            <a title="Get a grant, if you don't pay the levy" href="getgrant">Get a grant, if you don't pay the levy</a>
           </li>
           <li class="part-number">
             <span class="part-number">3.</span>
-              <a title="Part 3: If you are a levy payer" href="https://www.gov.uk/take-on-an-apprentice/das">Funding, if you pay the levy</a>
+              <a title="Funding, if you pay the levy" href="/fundinglevy">Funding, if you pay the levy</a>
           </li>
         </ol>
   	</div>
@@ -29,20 +29,20 @@
 	    <ol class="list">
 	          <li>
 	            <span class="part-number">4.</span>
-	          <a title="Part 4: Pay and conditions for apprentices" href="https://www.gov.uk/take-on-an-apprentice/apprenticeship-agreement">Pay and conditions for apprentices</a>
+	          <a title="Pay and conditions for apprentices" href="/payconditions">Pay and conditions for apprentices</a>
 	          </li>
 
 	          <li>
 	            <span class="part-number">5.</span>
-	            <a title="Part 5: Make an apprenticeship agreement" href="https://www.gov.uk/take-on-an-apprentice/apprenticeship-agreement">Make an apprenticeship agreement</a>
+	            <a title="Make an apprenticeship agreement" href="/apprenticeship-agreement">Make an apprenticeship agreement</a>
 	          </li>
 	          <li>
 	            <span class="part-number">6.</span>
-	            <a title="Part 6: Apprenticeship training agencies" href="https://www.gov.uk/take-on-an-apprentice/apprenticeship-training-agencies">Apprenticeship training agencies</a>
+	            <a title="Apprenticeship training agencies" href="/training-agencies">Apprenticeship training agencies</a>
 	          </li>
 	    </ol>
   	</div>
-	<hr>
+	<p>&nbsp;<hr></p>
 
   <h2 class="heading-medium">1. Overview</h1>
 
@@ -72,7 +72,7 @@
 
 <p>How you employ an apprentice depends on whether your organisation pays the apprenticeship levy or not.</p>
 
-<p>Levy payers must use the <a href="https://das-informmicrosite.herokuapp.com/#">digital apprenticeship service</a>.</p>
+<p>Levy payers must use the <a href="https://das-informmicrosite.herokuapp.com/#">Digital Apprenticeship Service</a>.</p>
 
 <ol class="list numberedList">
 <li>
@@ -97,7 +97,7 @@ Select your apprentice and <a href="https://www.gov.uk/take-on-an-apprentice/app
 </ol>
 	
 <div role="note" aria-label="Information on apprenticeship levy" class="panel panel-border-wide">
-	<p>To find out more about employing apprentices or providing traineeships, use the National Apprenticeship Service’s <a rel="external" href="https://sfacontactforms.azurewebsites.net/employer-enquiry">enquiry form.</a> You can also call them using the number on the form.</p>		
+	<p>To find out more about employing apprentices or providing traineeships, use the National Apprenticeship Service’s <a rel="external" href="#">enquiry form.</a> You can also call them using the number on the form.</p>		
 </div>
 
 <h2 class="heading-medium">How long it lasts</h2>
@@ -106,84 +106,29 @@ Select your apprentice and <a href="https://www.gov.uk/take-on-an-apprentice/app
 
 <h2>Apprenticeships in Scotland, Northern Ireland and Wales</h2>
 
-<p><a rel="external" href="https://www.apprenticeships.scot/">Scotland</a></p>
-<p><a rel="external" href="https://www.nibusinessinfo.co.uk/content/apprenticeships-employers">Northern Ireland</a></p>
-<p><a rel="external" href="https://businesswales.gov.wales/skillsgateway/apprenticeships">Wales</a></p>
+<p><a rel="external" href="#">Scotland</a></p>
+<p><a rel="external" href="#">Northern Ireland</a></p>
+<p><a rel="external" href="#">Wales</a></p>
 
 
 
+ <footer>
+  <nav class="pagination" role="navigation" aria-label="Pagination">
+    <ul class="group">
+          <li class="next">
+            <a title="Get a grant, if you don't pay the levy" rel="next" href="/getgrant">
+              <span class="pagination-label">Next </span> <span class="pagination-part-title">Get a grant, if you don't pay the levy</span>
+</a>          </li>
+         
+    </ul>
+  </nav>
+</footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<p class="modified-date font-xsmall">Last updated: 5th October 2016</p>
-<!-- <div class="print-link"><a rel="nofollow" href="/corporation-tax/print" target="_blank">Print entire guide</a></div> -->
+<p class="modified-date font-xsmall">Last updated: 21st November 2016</p>
 </div>
 <!-- //column-two-thirds -->
 
 
-<div class="column-one-third relatedContainer">
-<aside class="related">
-<h2 id="parent-subsection" class="heading-medium">Apprenticeships</h2>
-<nav role="navigation" aria-labelledby="parent-subsection">
-	<ul class="list noBullets">
-		<li>
-			<a href="../../public/external/link_appLevy.html">Apprenticeship levy and how it will work
-			</a>
-		</li>
-		<li>
-			<a href="../../public/external/apprenticeship_2020.html">Apprenticeships (in England): vision for 2020
-			</a>
-		</li>
-		<li>
-			<a href="../../public/external/guide_to_apprentice.html">Detailed guide to apprenticeships
-			</a>
-		</li>
-		<li>
-			<a href="../../public/external/employing_an_apprentice.html">Employing an apprentice
-			</a>
-		</li>
-		<li><a href="#" class="bold-xsmall">More</a></li>
-	</ul>
-</nav>
-<h2 id="parent-other" class="heading-medium">Elsewhere on GOV.UK</h2>
-<nav role="navigation" aria-labelledby="parent-other">
-	<ul class="list noBullets">
-		<li>
-			<a href="#">Get help with the apprenticeship levy</a>
-		</li>
-	</ul>
-</nav>
-</aside>
-</div>
-<!-- //column-one-third -->
 </div>
 <!-- //grid-row -->
 </main>
