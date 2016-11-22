@@ -14,7 +14,7 @@ module.exports = {
 
         // Get a grant page
         app.get('/getgrant', function(req, res) {
-            var pageName = 'Get a grant'
+            var pageName = "Get a grant, if you don't pay the levy"
             res.render('getgrant', {
                 'page_name': pageName
             })
